@@ -1,4 +1,4 @@
-//Given a heap, which might violate the property of min-heap at its node, we need to convert it to min-heap
+//Given a heap, which might violate the property of min-heap at its ith node, we need to convert it to min-heap
 void minheapify(int i) {
     int lt = left(i), rt = right(i);
     smallest = i;
