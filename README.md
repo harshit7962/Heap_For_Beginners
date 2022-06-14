@@ -36,4 +36,5 @@ struct Heap {
         if(i==0) return -1;
         return (i-1)/2;
     }
+};
 ```
